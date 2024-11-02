@@ -7,6 +7,7 @@ At this point, I'm not responsible for the bad usage of this script!
 
 """
 
+
 def get_words(file_path):
     with open(file_path, 'r') as f:
         text = f.readlines()[0]
@@ -24,7 +25,7 @@ def send_message(phone_number, message):
 if __name__ == '__main__':
     #words = get_words('ly.txt')
     #for word in words:
-        #send_message('6197516857', word)
+        #send_message('[INSERT_TELEPHONE_NUMBER]', word)
 
 
     text = get_lines('ly.txt')
