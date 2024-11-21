@@ -2,7 +2,7 @@ import os
 import config
 
 """
-We understand that Sapmming people is wrong but if you would like to do this for fun, you will have to test it with your own telephone number.
+We understand that Spamming people is wrong but if you would like to do this for fun, you will have to test it with your own telephone number.
 At this point, I'm not responsible for the bad usage of this script!
 
 """
