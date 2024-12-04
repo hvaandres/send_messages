@@ -23,11 +23,11 @@ def send_message(phone_number, message):
     os.system('osascript send.scpt {} "{}"'.format(phone_number, message))
 
 if __name__ == '__main__':
-    #words = get_words('ly.txt')
-    #for word in words:
-        #send_message('[INSERT_TELEPHONE_NUMBER]', word)
+    words = get_words('ly.txt')
+    for word in words:
+        send_message('INSERT_PHONE_NUMBER', word)
 
 
     text = get_lines('ly.txt')
     for line in text:
-        send_message('insert_phone_number', line)
+        send_message('INSERT_PHONE_NUMBER', line)
